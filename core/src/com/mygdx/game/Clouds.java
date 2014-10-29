@@ -14,8 +14,8 @@ public class Clouds extends ApplicationAdapter {
 	Texture img;
         ArrayList <Cloud> theClouds;
         ArrayList <Cloud> removeList;
-        float timeSinceLastCloud = 0.0f;
         static final float CLOUD_INTERVAL = 11.0f;
+        float timeSinceLastCloud = CLOUD_INTERVAL;
 	
 	@Override
 	public void create () 
